@@ -1,0 +1,140 @@
+.questions-container{
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin: 0 auto;
+}
+
+.questions-paragraph{
+  margin-bottom: 74px;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #333333;
+}
+
+.social-medias-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-left: 515px;
+}
+
+.social-media:not(:last-child){
+  margin-right: 110px;
+}
+
+.social-media-text{
+  text-decoration: none;
+}
+
+.social-media-text{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 153.69%;
+  text-align: center;
+  color: #727377;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-text:visited{
+  color: #727377;
+}
+
+.social-medias-wrapper{
+  margin-bottom: 94px;
+}
+
+/* .social-media-icon{
+  margin-bottom: 15px;
+} */
+
+.faq-heading{
+  margin-top: 79px;
+  margin-bottom: 89px;
+}
+
+.faq-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 1128px;
+  list-style: none;
+}
+
+.faq-list-item{
+  text-align: left;
+}
+
+.faq-question-button{
+  padding: 0 !important;
+  min-width: 100% !important;
+  max-height: 86px !important;
+  padding-top: 34px !important;
+  padding-bottom: 24px !important;
+  text-align: left !important;
+  border: none !important;
+  border-top: 0.5px solid #828282 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  
+}
+
+.faq-question-button{
+  background-image: url('../img/Union.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center right !important;
+}
+
+.faq-question-button-active{
+  color: #00AAFF;
+}
+
+.question-text{
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  line-height: 28px !important;
+  margin: 0px !important;
+  transition: color .3s ease !important;
+}
+
+.faq-question-button:hover, .faq-question-button:active, .faq-question-button:focus {
+  color: #00AAFF;
+}
+
+.answer-text{
+  padding: 0 !important;
+  margin-top: 30px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: #000 !important;
+}
+
+.answer-text:hover{
+  color: #000 !important;
+}
+
+.answer-wrapper{
+  padding: 0px !important;
+}
+
+.css-o4b71y-MuiAccordionSummary-content.Mui-expanded{
+  margin: 0 !important;
+}
+
+/* .MuiAccordionDetails-root{
+  padding: 0px !important;
+}
+
+.MuiAccordionSummary-content{
+  margin: 0 !important;
+  /* background-image: url('../img/Union.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: 1228px 12px !important; */

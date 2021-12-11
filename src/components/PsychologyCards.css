@@ -1,0 +1,17 @@
+.psychology-cards-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 68px;
+  list-style: none;
+}
+
+
+
+.psychology-cards-wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 156px;
+  padding-right: 166px;
+  padding-bottom: 78px;
+}

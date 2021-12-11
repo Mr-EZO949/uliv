@@ -1,0 +1,37 @@
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #00AAFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.btn:focus{
+  outline: 3px solid #CFEAFA;
+}
+
+.btn:hover, .btn:active{ 
+  background-color: #6BA3F4;
+}
+
+
+
+.btn-medium{
+  min-width: 229px;
+  height: 44px;
+  font-size: 16px;
+}
+
+.btn-large{
+  max-width: 315px;
+  padding: 20px 40px;
+}

@@ -1,0 +1,15 @@
+.psychologists-container{
+  background-color: #F6FCFF;
+  max-width: 100%;
+}
+
+.psychologists-heading{
+  margin-top: 79px;
+}
+
+.psychologists-cards-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}

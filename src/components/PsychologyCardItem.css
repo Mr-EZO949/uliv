@@ -1,0 +1,28 @@
+/* .psychologists-card:not(:last-child){
+  margin-right: 54px;
+} */
+
+.psychologists-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  max-width: 258px;
+}
+
+.icon{
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 50px;
+}
+
+.psychologists-subheading{
+  /* max-width: 258px; */
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.psychologists-content{
+  text-align: left;
+}

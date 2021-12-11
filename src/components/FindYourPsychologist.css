@@ -1,0 +1,108 @@
+.find-your-psychologist-container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 177px;
+  padding-right: 156px;
+  margin-bottom: 100px;
+}
+
+.find-heading{
+  max-width: 828px;
+  margin-top: 79px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.colored-fragment{
+  display: inline-block;
+  color: #00AAFF;
+}
+
+.steps{
+  display: flex;
+  margin-right: 50px;
+  flex-direction: row;
+  border-left: 3px solid #E7F7FF;
+}
+
+.steps-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.example{
+  display: none;
+}
+
+.active-example{
+  display: block;
+}
+
+.tab-button{
+  width: 50px;
+  height: 50px;
+  margin-left: -27px;
+  margin-right: 25px;
+  background-color: #E7F7FF;
+  border-radius: 50%;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 20px;
+  color: #FFFFFF;
+  transition-property: color, background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
+
+.tab-button:hover{
+  color: #6BA3F4;
+}
+
+.tab-button:active{
+  background-color: #00AAFF;
+}
+
+.tab-button:focus{
+  outline: 3px solid #CFEAFA;
+}
+
+.active-button{
+  background-color: #00AAFF;
+}
+
+.steps-button-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 96px;
+}
+
+.steps-info-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 96px;
+}
+
+.steps-content:not(:nth-child(3)){
+  margin-bottom: 100px;
+}
+
+.steps-content{
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #828282;
+}
+
+.active-content{
+  color: #333333;
+}
+
+.tab-button:not(:last-child){
+  margin-bottom: 100px;
+}
+
