@@ -5,6 +5,13 @@
   margin: 0 auto;
 }
 
+.questions-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .questions-paragraph{
   margin-bottom: 74px;
   font-size: 24px;
@@ -16,7 +23,7 @@
 .social-medias-wrapper{
   display: flex;
   flex-direction: row;
-  margin-left: 515px;
+  /* margin-left: 515px; */
 }
 
 .social-media:not(:last-child){
