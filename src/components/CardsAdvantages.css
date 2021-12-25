@@ -1,15 +1,14 @@
 .advantages-heading{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: 1128px;
   text-align: center;
   margin-bottom: 80px;
   
 }
 
 .advantages-container{
+  background-color: #F6FCFF;
+}
+
+.advantages-wrapper{
   max-width: 1440px;
   background-color: #F6FCFF;
   margin: 0 auto;
@@ -32,4 +31,25 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 425px){
+  .advantages-heading{
+    min-width: 0;
+    max-width: 329px;
+    margin-top: 69px;
+    margin-bottom: 60px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .advantages-wrapper{
+    padding: 0;
+  }
+  .advantages-list{
+    min-width: 0;
+    min-height: 0;
+    flex-direction: column;
+  }
 }

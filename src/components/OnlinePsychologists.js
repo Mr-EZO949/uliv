@@ -20,19 +20,19 @@ function OnlinePsychologists() {
       <ul className="online-psychologists-advantages">
         <li className="online-psychologists-item">
           <div className="img-wrapper">
-            <img src={onlinePsychologistIcon1} alt="online-psychologists-icon"/>
+            <img className="online-psychologists-img-icon" src={onlinePsychologistIcon1} alt="online-psychologists-icon"/>
           </div>
           <h5 className="psychologists-advantages-heading" style={{maxWidth: '121px'}}>Имеют высшее профильное образование</h5>
         </li>
         <li className="online-psychologists-item">
           <div className="img-wrapper">
-            <img src={onlinePsychologistIcon2} alt="online-psychologists-icon"/>
+            <img className="online-psychologists-img-icon" src={onlinePsychologistIcon2} alt="online-psychologists-icon"/>
           </div>
           <h5 className="psychologists-advantages-heading" style={{maxWidth: '102px'}}>Имеют опыт работы от 3х лет</h5>
         </li>
         <li className="online-psychologists-item">
           <div className="img-wrapper">
-            <img src={onlinePsychologistIcon3} alt="online-psychologists-icon"/>
+            <img className="online-psychologists-img-icon" src={onlinePsychologistIcon3} alt="online-psychologists-icon"/>
           </div>
           <h5 className="psychologists-advantages-heading" style={{maxWidth: '131px'}}>Рекомендации от коллег и клиентов</h5>
         </li>
@@ -40,19 +40,23 @@ function OnlinePsychologists() {
       <div className="find-online-psychologist-wrapper">
         <ul className="online-psychologists-list">
           <li className="online-psychologist-item">
-            <img src={onlinePsychologist1} alt="psychologist"/>
+            <img className="online-psychologists-img" src={onlinePsychologist1} alt="psychologist"/>
           </li>
           <li className="online-psychologist-item">
-            <img src={onlinePsychologist2} alt="psychologist"/>
+            <img className="online-psychologists-img" src={onlinePsychologist2} alt="psychologist"/>
           </li>
           <li className="online-psychologist-item">
-            <img src={onlinePsychologist3} alt="psychologist"/>
+            <img className="online-psychologists-img" src={onlinePsychologist3} alt="psychologist"/>
           </li>
           <li className="online-psychologist-item">
-            <img src={onlinePsychologist4} alt="psychologist"/>
+            <img className="online-psychologists-img" src={onlinePsychologist4} alt="psychologist"/>
           </li>
           <li className="online-psychologist-item">
-            <img src={onlinePsychologist5} alt="psychologist"/>
+            <img className="online-psychologists-img" src={onlinePsychologist5} alt="psychologist"/>
+          </li>
+          <li className="online-psychologist-item">
+            <h3 className="online-psychologist-amount">+40</h3>
+            <p className="online-psychologist-amount-text">психологов</p>
           </li>
         </ul>
         <Button>Подобрать психолога</Button>

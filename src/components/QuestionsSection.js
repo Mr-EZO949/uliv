@@ -38,6 +38,7 @@ function Questions() {
           </div>
         </div>
       </div>
+      <div className="faq-wrapper">
       <h2 className="main-heading faq-heading">Часто задаваемые вопросы</h2>
       <ul className="faq-list">
         <li className="faq-list-item">
@@ -144,6 +145,7 @@ function Questions() {
       </Accordion>
         </li>
       </ul>
+      </div>
     </div>
   )
 }

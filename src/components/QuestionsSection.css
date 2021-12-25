@@ -64,17 +64,28 @@
   margin-bottom: 89px;
 }
 
+.faq-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .faq-list{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 1128px;
+  align-items: center;
+  min-width: 99%;
+  max-width: 1128px !important;
   list-style: none;
 }
 
 .faq-list-item{
+  max-width: 1128px !important;
+  min-width: 85%;
   text-align: left;
 }
+
 
 .faq-question-button{
   padding: 0 !important;
@@ -91,23 +102,22 @@
   
 }
 
-.faq-question-button{
-  background-image: url('../img/Union.png') !important;
-  background-repeat: no-repeat !important;
-  background-position: center right !important;
-}
 
 .faq-question-button-active{
   color: #00AAFF;
 }
 
 .question-text{
+  min-width: 99%;
   font-style: normal !important;
   font-weight: 600 !important;
   font-size: 22px !important;
   line-height: 28px !important;
   margin: 0px !important;
   transition: color .3s ease !important;
+  background-image: url('../img/Union.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center right !important;
 }
 
 .faq-question-button:hover, .faq-question-button:active, .faq-question-button:focus {

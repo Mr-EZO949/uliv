@@ -7,9 +7,19 @@
   margin-top: 79px;
 }
 
-.psychologists-cards-wrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
+@media only screen and (max-width: 425px){
+  .psychologists-container{
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .psychologists-heading{
+    display: flex;
+    min-width: 0;
+    max-width: 224px;
+    margin-left: 31px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    line-height: 35px;
+  }
 }

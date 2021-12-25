@@ -26,3 +26,25 @@
 .psychologists-content{
   text-align: left;
 }
+
+@media only screen and (max-width: 425px){
+  .psychologists-subheading{
+    max-width: 253px !important;
+    margin-bottom: 15px !important;
+    font-size: 22px;
+  }
+  .psychologists-card{
+    margin-bottom: 55px;
+  }
+
+  .psychologists-content{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+  }
+
+  .icon{
+    margin-bottom: 20px;
+  }
+}

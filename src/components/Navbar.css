@@ -1,14 +1,16 @@
 .navbar{
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding-top: 21px;
   padding-left: 153px;
   padding-right: 95px;
-  max-width: 1440px;
+  max-width: 1128px;
   margin: 0 auto;
 }
 
 .navbar-container{
+  
   background-color: #F6FCFF;
   width: 100%;
   min-height: 70px;
@@ -46,6 +48,10 @@
   margin-top: -9px;
 }
 
+.navbar-burger{
+  display: none;
+}
+
 .navbar-list-link, .navbar-list-link:visited{
   color: #000;
   text-decoration: none;
@@ -64,4 +70,39 @@
   top: 0;
   left: 0;
   background-color: #F6FCFF;
+}
+
+@media only screen and (max-width: 425px){
+  .navbar{
+    max-width: 375px;
+    padding: 0;
+  }
+  .navbar-container{
+    max-width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    min-height: 42px;
+  }
+  .navbar-list{
+    display: none;
+  }
+  .navbar-burger{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    margin-right: 104px;
+    margin-top: 9px;
+    margin-left: 24px;
+  }
+  .logo{
+    margin-top: 10px;
+    margin-left: -10px;
+    /* margin-right: 147px; */
+  }
+  .scrolled{
+    width: 100%;
+    min-height: 42px;
+  }
 }

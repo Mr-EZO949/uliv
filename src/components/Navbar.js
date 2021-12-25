@@ -3,6 +3,7 @@ import logo from '../img/Logo Ulive.png'
 import Button from './Button.js';
 import Modal from 'react-modal';
 import "./Navbar.css";
+import burger from '../img/burger.png';
 
 const customStyles = {
   content : {
@@ -35,7 +36,7 @@ function Navbar() {
   const [scrolled, setScrolled]=React.useState(false);
   const handleScroll=() => {
     const offset=window.scrollY;
-    if(offset > 70 ){
+    if(offset > 10 ){
       setScrolled(true);
     }
     else{
@@ -53,6 +54,9 @@ function Navbar() {
     <> 
       <header className={navbarClasses.join(" ")}>
         <nav className="navbar">
+          <button className="navbar-burger">
+            <img className="burger-img" alt="Burger" src={burger}></img>
+          </button>
           <img className="logo" src={logo} alt="logo"/>
           <ul className="navbar-list">
             <li className="navbar-list-element"><a className="navbar-list-link" href="/">Новости</a></li>

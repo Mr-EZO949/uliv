@@ -6,12 +6,28 @@
   list-style: none;
 }
 
-
-
 .psychology-cards-wrapper{
-  max-width: 1440px;
+  max-width: 1128px;
   margin: 0 auto;
   padding-left: 156px;
   padding-right: 166px;
   padding-bottom: 78px;
+}
+
+.psychologists-cards-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+@media only screen and (max-width: 425px) {
+  .psychology-cards-wrapper{
+    max-width: 375px;
+    padding: 0;
+  }
+  .psychology-cards-list{
+    flex-direction: column;
+    margin-left: 33px;
+  }
 }
